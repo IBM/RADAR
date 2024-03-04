@@ -1,6 +1,8 @@
 # RADAR_AI_Detection
 Code for our NeurIPS2023 accepted paper: [RADAR: Robust AI-Text Detection via Adversarial Learning](https://proceedings.neurips.cc/paper_files/paper/2023/file/30e15e5941ae0cdab7ef58cc8d59a4ca-Paper-Conference.pdf).
+
 Live demo for RADAR: [RADAR-Demo](https://radar.vizhub.ai/)
+
 We tested RADAR on 8 LLMs including Vicuna and LLaMA. The results show that RADAR can attain good detection performance on LLM-generated AI-text while being robust against paraphrasing.
 ## Environment Build
 ```bash
