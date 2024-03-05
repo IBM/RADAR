@@ -12,7 +12,7 @@ We tested RADAR on 8 LLMs including Vicuna and LLaMA. The results show that RADA
     # to init a environment with packages installed using conda
     conda activate radar_env
     #activate conda environment
-    pip install -r radar_env_pip.txt 
+    pip install -r radar_requirements.txt 
     # to install packages install using pip
 ```
 ## Use RADAR to get AI-generated probability
