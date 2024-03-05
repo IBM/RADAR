@@ -6,8 +6,12 @@ Live demo for RADAR: [RADAR-Demo](https://radar.vizhub.ai/)
 We tested RADAR on 8 LLMs including Vicuna and LLaMA. The results show that RADAR can attain good detection performance on LLM-generated AI-text while being robust against paraphrasing.
 ## Environment Build
 ```bash
+    cd env
+    # go to env directory
     conda env create -f radar_core.yaml 
     # to init a environment with packages installed using conda
+    conda activate radar_env
+    #activate conda environment
     pip install -r radar_env_pip.txt 
     # to install packages install using pip
 ```
