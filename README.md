@@ -55,7 +55,7 @@ We may need to calculate the detection auroc of the detector.
 from sklearn.metrics import auc,roc_curve
 def get_roc_metrics(human_preds, ai_preds):
     # human_preds is the ai-generated probabiities of human-text
-    # ai_preds is the ai-generated probabiities of human-text
+    # ai_preds is the ai-generated probabiities of ai-text
     fpr, tpr, _ = roc_curve([0] * len(human_preds) + [1] * len(ai_preds), human_preds + ai_preds,pos_label=1)
     roc_auc = auc(fpr, tpr)
     return fpr.tolist(), tpr.tolist(), float(roc_auc)
